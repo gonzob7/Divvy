@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C025F1CD23EA1734008D78C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C025F1CC23EA1734008D78C0 /* AppDelegate.swift */; };
+		C025F1CF23EA1734008D78C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C025F1CE23EA1734008D78C0 /* SceneDelegate.swift */; };
+		C025F1D123EA1734008D78C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C025F1D023EA1734008D78C0 /* ViewController.swift */; };
+		C025F1D423EA1734008D78C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C025F1D223EA1734008D78C0 /* Main.storyboard */; };
+		C025F1D723EA1734008D78C0 /* Divvy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C025F1D523EA1734008D78C0 /* Divvy.xcdatamodeld */; };
+		C025F1D923EA173A008D78C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C025F1D823EA173A008D78C0 /* Assets.xcassets */; };
+		C025F1DC23EA173A008D78C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C025F1DA23EA173A008D78C0 /* LaunchScreen.storyboard */; };
+		C025F1E723EA173A008D78C0 /* DivvyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C025F1E623EA173A008D78C0 /* DivvyTests.swift */; };
+		C025F1F223EA173A008D78C0 /* DivvyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C025F1F123EA173A008D78C0 /* DivvyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C025F1E323EA173A008D78C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C025F1C123EA1734008D78C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C025F1C823EA1734008D78C0;
+			remoteInfo = Divvy;
+		};
+		C025F1EE23EA173A008D78C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C025F1C123EA1734008D78C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C025F1C823EA1734008D78C0;
+			remoteInfo = Divvy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C025F1C923EA1734008D78C0 /* Divvy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Divvy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C025F1CC23EA1734008D78C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C025F1CE23EA1734008D78C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C025F1D023EA1734008D78C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C025F1D323EA1734008D78C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C025F1D623EA1734008D78C0 /* Divvy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Divvy.xcdatamodel; sourceTree = "<group>"; };
+		C025F1D823EA173A008D78C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C025F1DB23EA173A008D78C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C025F1DD23EA173A008D78C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C025F1E223EA173A008D78C0 /* DivvyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DivvyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C025F1E623EA173A008D78C0 /* DivvyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivvyTests.swift; sourceTree = "<group>"; };
+		C025F1E823EA173A008D78C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C025F1ED23EA173A008D78C0 /* DivvyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DivvyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C025F1F123EA173A008D78C0 /* DivvyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivvyUITests.swift; sourceTree = "<group>"; };
+		C025F1F323EA173A008D78C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C025F1C623EA1734008D78C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C025F1DF23EA173A008D78C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C025F1EA23EA173A008D78C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C025F1C023EA1734008D78C0 = {
+			isa = PBXGroup;
+			children = (
+				C025F1CB23EA1734008D78C0 /* Divvy */,
+				C025F1E523EA173A008D78C0 /* DivvyTests */,
+				C025F1F023EA173A008D78C0 /* DivvyUITests */,
+				C025F1CA23EA1734008D78C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C025F1CA23EA1734008D78C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C025F1C923EA1734008D78C0 /* Divvy.app */,
+				C025F1E223EA173A008D78C0 /* DivvyTests.xctest */,
+				C025F1ED23EA173A008D78C0 /* DivvyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C025F1CB23EA1734008D78C0 /* Divvy */ = {
+			isa = PBXGroup;
+			children = (
+				C025F1CC23EA1734008D78C0 /* AppDelegate.swift */,
+				C025F1CE23EA1734008D78C0 /* SceneDelegate.swift */,
+				C025F1D023EA1734008D78C0 /* ViewController.swift */,
+				C025F1D223EA1734008D78C0 /* Main.storyboard */,
+				C025F1D823EA173A008D78C0 /* Assets.xcassets */,
+				C025F1DA23EA173A008D78C0 /* LaunchScreen.storyboard */,
+				C025F1DD23EA173A008D78C0 /* Info.plist */,
+				C025F1D523EA1734008D78C0 /* Divvy.xcdatamodeld */,
+			);
+			path = Divvy;
+			sourceTree = "<group>";
+		};
+		C025F1E523EA173A008D78C0 /* DivvyTests */ = {
+			isa = PBXGroup;
+			children = (
+				C025F1E623EA173A008D78C0 /* DivvyTests.swift */,
+				C025F1E823EA173A008D78C0 /* Info.plist */,
+			);
+			path = DivvyTests;
+			sourceTree = "<group>";
+		};
+		C025F1F023EA173A008D78C0 /* DivvyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C025F1F123EA173A008D78C0 /* DivvyUITests.swift */,
+				C025F1F323EA173A008D78C0 /* Info.plist */,
+			);
+			path = DivvyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C025F1C823EA1734008D78C0 /* Divvy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C025F1F623EA173A008D78C0 /* Build configuration list for PBXNativeTarget "Divvy" */;
+			buildPhases = (
+				C025F1C523EA1734008D78C0 /* Sources */,
+				C025F1C623EA1734008D78C0 /* Frameworks */,
+				C025F1C723EA1734008D78C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Divvy;
+			productName = Divvy;
+			productReference = C025F1C923EA1734008D78C0 /* Divvy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C025F1E123EA173A008D78C0 /* DivvyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C025F1F923EA173A008D78C0 /* Build configuration list for PBXNativeTarget "DivvyTests" */;
+			buildPhases = (
+				C025F1DE23EA173A008D78C0 /* Sources */,
+				C025F1DF23EA173A008D78C0 /* Frameworks */,
+				C025F1E023EA173A008D78C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C025F1E423EA173A008D78C0 /* PBXTargetDependency */,
+			);
+			name = DivvyTests;
+			productName = DivvyTests;
+			productReference = C025F1E223EA173A008D78C0 /* DivvyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C025F1EC23EA173A008D78C0 /* DivvyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C025F1FC23EA173A008D78C0 /* Build configuration list for PBXNativeTarget "DivvyUITests" */;
+			buildPhases = (
+				C025F1E923EA173A008D78C0 /* Sources */,
+				C025F1EA23EA173A008D78C0 /* Frameworks */,
+				C025F1EB23EA173A008D78C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C025F1EF23EA173A008D78C0 /* PBXTargetDependency */,
+			);
+			name = DivvyUITests;
+			productName = DivvyUITests;
+			productReference = C025F1ED23EA173A008D78C0 /* DivvyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C025F1C123EA1734008D78C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Jessica Trinh";
+				TargetAttributes = {
+					C025F1C823EA1734008D78C0 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					C025F1E123EA173A008D78C0 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = C025F1C823EA1734008D78C0;
+					};
+					C025F1EC23EA173A008D78C0 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = C025F1C823EA1734008D78C0;
+					};
+				};
+			};
+			buildConfigurationList = C025F1C423EA1734008D78C0 /* Build configuration list for PBXProject "Divvy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C025F1C023EA1734008D78C0;
+			productRefGroup = C025F1CA23EA1734008D78C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C025F1C823EA1734008D78C0 /* Divvy */,
+				C025F1E123EA173A008D78C0 /* DivvyTests */,
+				C025F1EC23EA173A008D78C0 /* DivvyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C025F1C723EA1734008D78C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C025F1DC23EA173A008D78C0 /* LaunchScreen.storyboard in Resources */,
+				C025F1D923EA173A008D78C0 /* Assets.xcassets in Resources */,
+				C025F1D423EA1734008D78C0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C025F1E023EA173A008D78C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C025F1EB23EA173A008D78C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C025F1C523EA1734008D78C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C025F1D723EA1734008D78C0 /* Divvy.xcdatamodeld in Sources */,
+				C025F1D123EA1734008D78C0 /* ViewController.swift in Sources */,
+				C025F1CD23EA1734008D78C0 /* AppDelegate.swift in Sources */,
+				C025F1CF23EA1734008D78C0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C025F1DE23EA173A008D78C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C025F1E723EA173A008D78C0 /* DivvyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C025F1E923EA173A008D78C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C025F1F223EA173A008D78C0 /* DivvyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C025F1E423EA173A008D78C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C025F1C823EA1734008D78C0 /* Divvy */;
+			targetProxy = C025F1E323EA173A008D78C0 /* PBXContainerItemProxy */;
+		};
+		C025F1EF23EA173A008D78C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C025F1C823EA1734008D78C0 /* Divvy */;
+			targetProxy = C025F1EE23EA173A008D78C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C025F1D223EA1734008D78C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C025F1D323EA1734008D78C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C025F1DA23EA173A008D78C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C025F1DB23EA173A008D78C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C025F1F423EA173A008D78C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C025F1F523EA173A008D78C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C025F1F723EA173A008D78C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95TXKAQ9ZU;
+				INFOPLIST_FILE = Divvy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jessica-trinh.Divvy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C025F1F823EA173A008D78C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95TXKAQ9ZU;
+				INFOPLIST_FILE = Divvy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jessica-trinh.Divvy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C025F1FA23EA173A008D78C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95TXKAQ9ZU;
+				INFOPLIST_FILE = DivvyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jessica-trinh.DivvyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Divvy.app/Divvy";
+			};
+			name = Debug;
+		};
+		C025F1FB23EA173A008D78C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95TXKAQ9ZU;
+				INFOPLIST_FILE = DivvyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jessica-trinh.DivvyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Divvy.app/Divvy";
+			};
+			name = Release;
+		};
+		C025F1FD23EA173A008D78C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95TXKAQ9ZU;
+				INFOPLIST_FILE = DivvyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jessica-trinh.DivvyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Divvy;
+			};
+			name = Debug;
+		};
+		C025F1FE23EA173A008D78C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95TXKAQ9ZU;
+				INFOPLIST_FILE = DivvyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jessica-trinh.DivvyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Divvy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C025F1C423EA1734008D78C0 /* Build configuration list for PBXProject "Divvy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C025F1F423EA173A008D78C0 /* Debug */,
+				C025F1F523EA173A008D78C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C025F1F623EA173A008D78C0 /* Build configuration list for PBXNativeTarget "Divvy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C025F1F723EA173A008D78C0 /* Debug */,
+				C025F1F823EA173A008D78C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C025F1F923EA173A008D78C0 /* Build configuration list for PBXNativeTarget "DivvyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C025F1FA23EA173A008D78C0 /* Debug */,
+				C025F1FB23EA173A008D78C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C025F1FC23EA173A008D78C0 /* Build configuration list for PBXNativeTarget "DivvyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C025F1FD23EA173A008D78C0 /* Debug */,
+				C025F1FE23EA173A008D78C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C025F1D523EA1734008D78C0 /* Divvy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C025F1D623EA1734008D78C0 /* Divvy.xcdatamodel */,
+			);
+			currentVersion = C025F1D623EA1734008D78C0 /* Divvy.xcdatamodel */;
+			path = Divvy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C025F1C123EA1734008D78C0 /* Project object */;
+}
