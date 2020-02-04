@@ -82,6 +82,16 @@
 			isa = PBXGroup;
 			children = (
 				C025F1CB23EA1734008D78C0 /* Divvy */,
+				C025F1FF23EA1748008D78C0 /* Controller */,
+				C025F20023EA1759008D78C0 /* View */,
+				C025F20123EA1762008D78C0 /* Model */,
+				C025F20823EA17D5008D78C0 /* Verification */,
+				C025F20723EA17CF008D78C0 /* Signup */,
+				C025F20623EA17C8008D78C0 /* Profile */,
+				C025F20523EA17BF008D78C0 /* Login */,
+				C025F20423EA17B5008D78C0 /* Marketplace */,
+				C025F20323EA17AE008D78C0 /* Chat */,
+				C025F20223EA179D008D78C0 /* Backend */,
 				C025F1E523EA173A008D78C0 /* DivvyTests */,
 				C025F1F023EA173A008D78C0 /* DivvyUITests */,
 				C025F1CA23EA1734008D78C0 /* Products */,
@@ -103,10 +113,7 @@
 			children = (
 				C025F1CC23EA1734008D78C0 /* AppDelegate.swift */,
 				C025F1CE23EA1734008D78C0 /* SceneDelegate.swift */,
-				C025F1D023EA1734008D78C0 /* ViewController.swift */,
-				C025F1D223EA1734008D78C0 /* Main.storyboard */,
 				C025F1D823EA173A008D78C0 /* Assets.xcassets */,
-				C025F1DA23EA173A008D78C0 /* LaunchScreen.storyboard */,
 				C025F1DD23EA173A008D78C0 /* Info.plist */,
 				C025F1D523EA1734008D78C0 /* Divvy.xcdatamodeld */,
 			);
@@ -129,6 +136,175 @@
 				C025F1F323EA173A008D78C0 /* Info.plist */,
 			);
 			path = DivvyUITests;
+			sourceTree = "<group>";
+		};
+		C025F1FF23EA1748008D78C0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C025F1D023EA1734008D78C0 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C025F20023EA1759008D78C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C025F1DA23EA173A008D78C0 /* LaunchScreen.storyboard */,
+				C025F1D223EA1734008D78C0 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C025F20123EA1762008D78C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C025F20223EA179D008D78C0 /* Backend */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Backend;
+			sourceTree = "<group>";
+		};
+		C025F20323EA17AE008D78C0 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				C025F21423EA183C008D78C0 /* Views */,
+				C025F21323EA1833008D78C0 /* Controllers */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		C025F20423EA17B5008D78C0 /* Marketplace */ = {
+			isa = PBXGroup;
+			children = (
+				C025F21223EA182D008D78C0 /* Views */,
+				C025F21123EA1827008D78C0 /* Controllers */,
+			);
+			path = Marketplace;
+			sourceTree = "<group>";
+		};
+		C025F20523EA17BF008D78C0 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C025F21023EA1822008D78C0 /* Views */,
+				C025F20F23EA181C008D78C0 /* Controllers */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		C025F20623EA17C8008D78C0 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				C025F20E23EA1817008D78C0 /* Views */,
+				C025F20D23EA180F008D78C0 /* Controllers */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		C025F20723EA17CF008D78C0 /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				C025F20C23EA1804008D78C0 /* Views */,
+				C025F20B23EA17F7008D78C0 /* Controllers */,
+			);
+			path = Signup;
+			sourceTree = "<group>";
+		};
+		C025F20823EA17D5008D78C0 /* Verification */ = {
+			isa = PBXGroup;
+			children = (
+				C025F20A23EA17F1008D78C0 /* Views */,
+				C025F20923EA17E4008D78C0 /* Controllers */,
+			);
+			path = Verification;
+			sourceTree = "<group>";
+		};
+		C025F20923EA17E4008D78C0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C025F20A23EA17F1008D78C0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C025F20B23EA17F7008D78C0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C025F20C23EA1804008D78C0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C025F20D23EA180F008D78C0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C025F20E23EA1817008D78C0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C025F20F23EA181C008D78C0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C025F21023EA1822008D78C0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C025F21123EA1827008D78C0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C025F21223EA182D008D78C0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C025F21323EA1833008D78C0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C025F21423EA183C008D78C0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
