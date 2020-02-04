@@ -16,6 +16,12 @@
 		C025F1DC23EA173A008D78C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C025F1DA23EA173A008D78C0 /* LaunchScreen.storyboard */; };
 		C025F1E723EA173A008D78C0 /* DivvyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C025F1E623EA173A008D78C0 /* DivvyTests.swift */; };
 		C025F1F223EA173A008D78C0 /* DivvyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C025F1F123EA173A008D78C0 /* DivvyUITests.swift */; };
+		C025F21623EA1B1C008D78C0 /* VerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C025F21523EA1B1C008D78C0 /* VerificationViewController.swift */; };
+		C025F21823EA1B37008D78C0 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C025F21723EA1B37008D78C0 /* SignupViewController.swift */; };
+		C025F21A23EA1B4D008D78C0 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C025F21923EA1B4D008D78C0 /* ProfileViewController.swift */; };
+		C025F21C23EA1B5F008D78C0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C025F21B23EA1B5F008D78C0 /* LoginViewController.swift */; };
+		C025F21E23EA1B74008D78C0 /* MarketplaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C025F21D23EA1B74008D78C0 /* MarketplaceViewController.swift */; };
+		C025F22023EA1B95008D78C0 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C025F21F23EA1B95008D78C0 /* ChatViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,12 @@
 		C025F1ED23EA173A008D78C0 /* DivvyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DivvyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C025F1F123EA173A008D78C0 /* DivvyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivvyUITests.swift; sourceTree = "<group>"; };
 		C025F1F323EA173A008D78C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C025F21523EA1B1C008D78C0 /* VerificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationViewController.swift; sourceTree = "<group>"; };
+		C025F21723EA1B37008D78C0 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		C025F21923EA1B4D008D78C0 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		C025F21B23EA1B5F008D78C0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C025F21D23EA1B74008D78C0 /* MarketplaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketplaceViewController.swift; sourceTree = "<group>"; };
+		C025F21F23EA1B95008D78C0 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,6 +238,7 @@
 		C025F20923EA17E4008D78C0 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				C025F21523EA1B1C008D78C0 /* VerificationViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -240,6 +253,7 @@
 		C025F20B23EA17F7008D78C0 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				C025F21723EA1B37008D78C0 /* SignupViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -254,6 +268,7 @@
 		C025F20D23EA180F008D78C0 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				C025F21923EA1B4D008D78C0 /* ProfileViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -268,6 +283,7 @@
 		C025F20F23EA181C008D78C0 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				C025F21B23EA1B5F008D78C0 /* LoginViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -282,6 +298,7 @@
 		C025F21123EA1827008D78C0 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				C025F21D23EA1B74008D78C0 /* MarketplaceViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -296,6 +313,7 @@
 		C025F21323EA1833008D78C0 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				C025F21F23EA1B95008D78C0 /* ChatViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -438,9 +456,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C025F21823EA1B37008D78C0 /* SignupViewController.swift in Sources */,
 				C025F1D723EA1734008D78C0 /* Divvy.xcdatamodeld in Sources */,
+				C025F21E23EA1B74008D78C0 /* MarketplaceViewController.swift in Sources */,
 				C025F1D123EA1734008D78C0 /* ViewController.swift in Sources */,
+				C025F21623EA1B1C008D78C0 /* VerificationViewController.swift in Sources */,
+				C025F21C23EA1B5F008D78C0 /* LoginViewController.swift in Sources */,
+				C025F21A23EA1B4D008D78C0 /* ProfileViewController.swift in Sources */,
 				C025F1CD23EA1734008D78C0 /* AppDelegate.swift in Sources */,
+				C025F22023EA1B95008D78C0 /* ChatViewController.swift in Sources */,
 				C025F1CF23EA1734008D78C0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
