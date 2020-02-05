@@ -31,7 +31,8 @@ $ git checkout -b fullname/LoginViewControllerUpdate
 <pre><code>git commit -m "Your-Full-Name/Feature_Description"</code></pre>
 
 5. Push to your origin repository
-<pre><code> git push -u origin fullname/LoginViewControllerUpdate</code></pre>
+
+Example: <pre><code> git push -u origin fullname/LoginViewControllerUpdate</code></pre>
 This will create the branch on your GitHub project
 The -u flag links this branch with the remote one, so that in the future, you can simply type *git push origin*
 
